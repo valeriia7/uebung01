@@ -29,12 +29,13 @@ In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `
 
 ## Teilaufgabe 2
 
-7. Erweitern Sie nun die bestehende Testklasse um eine Testmethode `@Test void testPalindrom()`, in der Sie nun den Stack verwenden, um beliebige Strings auf Palindrome zu testen.
+7. Implementieren Sie die statische Methode `Palindrom.istPalindrom()`, in der Sie nun den Stack verwenden, um beliebige Strings auf Palindrome zu testen.
 	- Ein String ist ein Palindrom, wenn er vorwärts wie rückwärts die selbst Buchstabenfolge hat, also in der Mitte "gespiegelt" ist.
 		Wie kann dazu der Stack verwendet werden?
 	- Die Methode `String.replaceAll` kann verwendet werden, um alle Leerzeichen zu entfernen.
 	- Die Methode `String.toLowerCase` (bzw. `toUpperCase`) wandelt alle Zeichen in Klein- bzw. Großbuchstaben um
 	- Die Methode `String.toCharArray` gibt den String als Array von `char` zurück.
+	- Verifizieren Sie, dass der Test `testPalindrom()` fehlerfrei abläuft.
 
 
 > Hinweis: Die kommenden Aufgaben werden Git immer in der selben Art verwenden.
