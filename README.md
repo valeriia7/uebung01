@@ -43,9 +43,37 @@ In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `
 
 ## Teilaufgabe 3 (optional)
 
-Mergen Sie nun Ihren Branch `loesung` in den `master` Branch.
+8. Mergen Sie nun Ihren Branch `loesung` in den `master` Branch:
+	1. Checken Sie den `master` Branch aus
+	2. Mergen Sie `loesung`
+	3. Pushen Sie nun alles in Ihr Github Repository.
+	4. Verifizieren Sie auf Github, dass Ihre Änderungen alle übernommen und dokumentiert sind.
 
-1. Checken Sie den `master` Branch aus
-2. Mergen Sie `loesung`
-3. Pushen Sie nun alles in Ihr Github Repository.
-4. Verifizieren Sie auf Github, dass Ihre Änderungen alle übernommen und dokumentiert sind.
+
+## Cheat-Sheet für Terminalanwender
+
+Lokales Klonen des Repositorys:
+
+```bash
+git clone https://github.com/IHR_USERNAME/uebung01
+```
+
+Dann im lokalen Verzeichnis:
+
+```bash
+git checkout -b loesung  # checkout neuer Branch `loesung`
+git status  # was wurde verändert?
+git add src/main/java/ueb01/CharStackImpl.java  # staging
+git commit -m "Stack fertig implementiert"
+
+# ... weitere commits moeglich!
+
+# lokalen `loesung` Branch pushen, `-u origin loesung` 
+# da dieser Branch remote noch nicht existiert!
+git push -u origin loesung
+
+# mergen:
+git checkout master  # auf `master` wechseln
+git merge loesung    # jetzt `loesung` -> `master`
+git push             # lokalen master pushen
+```
