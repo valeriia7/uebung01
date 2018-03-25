@@ -1,6 +1,9 @@
+_Dies ist eine Übungsaufgabe zur Veranstaltung [Programmieren 2](https://hsro-wif-prg2.github.io) im [Bachelorstudiengang Wirtschaftsinformatik](https://www.fh-rosenheim.de/technik/informatik-mathematik/wirtschaftsinformatik-bachelor/) an der [Hochschule Rosenheim](http://www.fh-rosenheim.de)._
+
+
 # Stack und Palindrom
 
-In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `CharStack`), und verwenden sie anschließend um Strings auf Palindrome zu prüfen.
+In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `CharStack`), und verwenden sie anschließend um Strings auf Palindromeigenschaft zu prüfen.
 
 
 ## Vorarbeiten
