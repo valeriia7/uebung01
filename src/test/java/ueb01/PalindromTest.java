@@ -8,16 +8,19 @@ class PalindromTest {
 	@Test
 	void testPalindrom() {
 		String[] xs = {
-				"Ein Neger mit Gazelle zagt im Regen nie",
+				"a",
+				"aa",
+				"Ana",
 				"Anna",
 				"Regallager",
-				"Eine güldne, gute Tugend: Lüge nie",
-				"a",
-				"bb"
+				"Ein Neger mit Gazelle zagt im Regen nie",
+				"Eine güldne gute Tugend Lüge nie"
 		};
 
-		for (String s : xs)
+		for (String s : xs) {
+			System.err.println(s);
 			assertTrue(Palindrom.istPalindrom(s));
+		}
 
 		String[] zs = {
 				"hansdampf",
@@ -26,7 +29,9 @@ class PalindromTest {
 				"ab"
 		};
 
-		for (String s : zs)
+		for (String s : zs) {
+			System.err.println(s);
 			assertFalse(Palindrom.istPalindrom(s));
+		}
 	}
 }
