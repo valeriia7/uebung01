@@ -18,11 +18,12 @@ In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `
 ## Teilaufgabe 1
 
 4. Vervollständigen Sie die Klasse `CharStackImpl` in dem Sie die `push`, `pop` und `size` Methoden implementieren
-	- `push` legt ein Element oben auf den Stack, `pop` entfernt das oberste; der Stack ist also FILO -- _first in-last out_.
-	- Denken Sie auch an die benötigte Hilfsklasse um die Elemente zu modellieren.
+	- `push` legt ein Element oben auf den Stack, `pop` entfernt das oberste; der Stack ist also FILO -- _first in - last out_.
+	- Denken Sie auch an die benötigte Hilfsklasse, um die Elemente zu modellieren.
 	- Verifizieren Sie, dass der Test `CharStackTest` fehlerfrei abläuft.
 
-5. Fügen Sie die geänderte Datei `CharStackImpl.java` sowie die Hilfsklasse Ihrem Commit hinzu, im IntelliJ mit Rechtsklick -> Git -> Add, oder in der Konsole mit `git add src/main/java/ueb01/CharStackImpl.java`
+5. Fügen Sie die geänderte Datei `CharStackImpl.java` sowie die Hilfsklasse Ihrem Commit hinzu, im IntelliJ mit   
+Rechtsklick -> Git -> Add, oder in der Konsole mit `git add src/main/java/ueb01/CharStackImpl.java`
 
 6. Committen und pushen Sie die Änderungen, entweder via VCS -> Commit Changes -> Commit and Push, oder in der Konsole mit
 	```
@@ -33,11 +34,11 @@ In dieser Übung implementieren wir die Datenstruktur _Stack_ (siehe Interface `
 ## Teilaufgabe 2
 
 7. Implementieren Sie die statische Methode `Palindrom.istPalindrom()`, in der Sie nun den Stack verwenden, um beliebige Strings auf Palindrome zu testen.
-	- Ein String ist ein Palindrom, wenn er vorwärts wie rückwärts die selbst Buchstabenfolge hat, also in der Mitte "gespiegelt" ist.
-		Wie kann dazu der Stack verwendet werden?
+	- Ein String ist ein Palindrom, wenn er vorwärts wie rückwärts die selbe Buchstabenfolge hat, also in der Mitte "gespiegelt" ist.  
+Wie kann dazu der Stack verwendet werden?
 	- Die Methode `String.replaceAll` kann verwendet werden, um alle Leerzeichen zu entfernen.
 	- Die Methode `String.toLowerCase` (bzw. `toUpperCase`) wandelt alle Zeichen in Klein- bzw. Großbuchstaben um
-	- Die Methode `String.toCharArray` gibt den String als Array von `char` zurück.
+	- Die Methode `String.toCharArray` gibt den String als Array von `char`s zurück.
 	- Verifizieren Sie, dass der Test `testPalindrom()` fehlerfrei abläuft.
 
 
